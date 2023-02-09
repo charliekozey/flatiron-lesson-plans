@@ -22,7 +22,7 @@
 
 ## Key tips
 - configure your request as Body > raw > JSON, like so:
-![screenshot highlighting the request config options: Body, raw, JSON](/assets/postman-request-config.jpg)
+![screenshot highlighting the request config options: Body, raw, JSON](screenshots/postman-request-config.jpg)
 - save your requests to access them later 
   - Collections > New Collection > New Request
-![screenshot highlighting the steps to create a new Postman request](/assets/postman-organize-requests.jpg)
+![screenshot highlighting the steps to create a new Postman request](screenshots/postman-organize-requests.jpg)
