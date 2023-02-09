@@ -24,5 +24,5 @@
 - configure your request as Body > raw > JSON, like so:
 ![screenshot highlighting the request config options: Body, raw, JSON](screenshots/postman-request-config.jpg)
 - save your requests to access them later 
-  - Collections > New Collection > New Request
+  - Collections > New Collection > Add Request
 ![screenshot highlighting the steps to create a new Postman request](screenshots/postman-organize-requests.jpg)
