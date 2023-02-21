@@ -2,7 +2,8 @@
 
 ***
 
-### TIP!! Open this markdown file in VS code and use cmd-shift-V or alt-shift-V to open a preview and make it easier to read
+### TIP!! Open this markdown file in VS code and use cmd-shift-V or 
+alt-shift-V to open a preview and make it easier to read
 
 *** 
 
@@ -157,7 +158,7 @@ $ ls
 - again, PERMANENTLY DELETES THE FOLDER SO BE CAREFUL
   
   ```bash
-  $ rm folder-to-delete
+  $ rm -r folder-to-delete
   ```
 
 - it will ask for confirmation so you must then press y or n
