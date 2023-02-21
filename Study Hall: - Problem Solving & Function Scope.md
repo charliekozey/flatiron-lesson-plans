@@ -34,7 +34,8 @@
 
 - avoid global scope variables
   
-  - you can definitely get away with it for now, but it will help you down the road if you break the habit early
+  - you can get away with it for now, but it will 
+help you down the road if you break the habit early
 
 ## 4:25 | build #1
 
