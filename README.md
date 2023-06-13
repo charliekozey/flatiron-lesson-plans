@@ -1,6 +1,6 @@
 # Welcome!
 
-Here you'll find lecture notes, lab walk-throughs, and lists of resources designed around Flatiron School's Software Engineering Curriculum.
+Here you'll find lecture notes, lab walk-throughs, and lists of resources designed around Flatiron School's Software Engineering curriculum.
 
 # Table of Contents
 ## Software Engineering Curriculum
