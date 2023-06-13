@@ -17,21 +17,36 @@
         # mathematic functions 
         
 # How do we declare a function? #################
-    # option 1: declare a named function
-        function addTwoPlusOne() {
-            return 2 + 1
-        }
+## Option 1: Named Function Declaration
+```js
+function addTwoPlusOne() {
+    return 2 + 1
+}
+```
 
-    # option 2: function expression: when you save a function to a variable
-    # (we say JS functions are first-class objects because you can save them to variables 
-    # to be re-used elsewhere)
-        const doSomething = function() {
-            return "hi"
-        }
+## Option 2: Function Expression
+- This is when you save a function to a variable
+- We say JS functions are *first-class objects* because you can:
+  1. Save functions to variables 
+  2. Return a function from another function
 
-    # arrow function is just another way of writing a function expression
-    # (most often used in callbacks, e.g. in an array.map())
-        const doSomethingArrow = () => "hi"  # <- single line = implicit return, no return keyword
+```js
+const doSomething = function() {
+    return "hi"
+}
+```
+
+## Option 3: Arrow Function
+- Just a more compact way of writing a function expression
+- Can be written on one or multiple lines
+- If no curly braces, *must* use `return` keyword
+- Most often used in callbacks, e.g. in an ```array.map()```)
+
+### Single-line arrow function
+- Has implicit return; no need to use `return` keyword
+```js
+const doSomethingArrow = () => "hi" 
+```
                 # the first equals sign is still assignment operator
                 # the parentheses are still a holder for parameter(s)
                 # parens optional if only one parameter
@@ -40,7 +55,13 @@
         const doSomethingArrowMultipleLines = () => {
             return "hi" # <-- if function is written across multiple lines,
                         # there's no implicit return so you must use return keyword
-        }               
+        }     
+
+# Other options
+- tktk add link tktk     
+
+# How do we call a function?
+    addThree(5)
 
 # What are function parameters?
     # placeholders for what you'll pass in to the function
@@ -50,8 +71,6 @@
             return num + 3
         }
 
-# How do we call a function?
-    addThree(5)
 
 # What are arguments?
     # what you pass into the function when you call it
@@ -90,3 +109,4 @@
 # What’s the difference between referencing a function and invoking a function?
     console.log("referenced:" + " " + doSomething)
     console.log("invoked:" + " " + doSomething())
+
