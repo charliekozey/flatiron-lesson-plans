@@ -4,3 +4,4 @@
 
 ### Mock Code Challenge Solutions
 - [Plantsy](https://github.com/charliekozey/plantsy-review)
+- [Deep Cuts](https://github.com/charliekozey/deep-cuts)
